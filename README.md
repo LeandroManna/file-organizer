@@ -31,13 +31,13 @@ python organizador.py
 El script permite modificar la ruta de la carpeta a organizar. Para ello, edita la siguiente línea en `organizador.py`:
 
 ```python
-carpeta_descargas = Path(r"D:\Documentos")  # Modifica esta ruta según necesites
+carpeta_desorganizada = Path(r"D:\Documentos")  # Modifica esta ruta según necesites
 ```
 
 Puedes cambiarla, por ejemplo, para organizar la carpeta de Descargas:
 
 ```python
-carpeta_descargas = Path(r"C:\Users\TuUsuario\Downloads")
+carpeta_desorganizada = Path(r"C:\Users\TuUsuario\Downloads")
 ```
 
 También puedes añadir nuevas categorías y extensiones en el diccionario `categorias_archivos`:
